@@ -3,8 +3,8 @@
 
 LOG_FILE="/var/log/monitoramento.log"
 URL="http://localhost"
-TOKEN="7327910189:AAEQ_oEOHpv7NZna9Erz39QnJsoh1j_HZFs"
-CHAT_ID="6640826771"
+TOKEN="SEU_TOKEN"
+CHAT_ID="SEU_CHATid"
 DATA=$(date "+%Y-%m-%d %H:%M:%S")
 STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
 
